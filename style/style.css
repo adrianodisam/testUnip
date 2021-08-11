@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+* {
+  font-family: inter;
+}
+header {
+  background-color: #1c1c1c;
+  height: 80px;
+  color: white;
+}
+nav {
+  color: white;
+  background-color: #1c1c1c;
+  height: 700px;
+}
+img {
+  width: 15px;
+}
