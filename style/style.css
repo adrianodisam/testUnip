@@ -18,3 +18,15 @@ nav {
 img {
   width: 15px;
 }
+
+@media (max-width: 800px) {
+  #dados {
+    width: 300px;
+  }
+  #inputCpf {
+    width: 120px;
+  }
+  #btnBuscar {
+    width: 120px;
+  }
+}
