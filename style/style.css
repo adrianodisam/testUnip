@@ -21,6 +21,7 @@ img {
 
 @media (max-width: 800px) {
   #dados {
+    overflow: hidden;
     width: 300px;
   }
   #inputCpf {
@@ -28,5 +29,20 @@ img {
   }
   #btnBuscar {
     width: 120px;
+  }
+  .edit {
+    display: inline;
+  }
+}
+@media (max-width: 450px) {
+  th,
+  td,
+  tr {
+    width: 260px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  nav {
+    height: 1200px;
   }
 }
